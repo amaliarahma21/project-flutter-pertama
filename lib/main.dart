@@ -1,6 +1,7 @@
+import 'package:belajar/container_widget.dart';
 import 'package:flutter/material.dart';
 
-void  main() {
+void main() {
   runApp(MyApp());
 }
 
@@ -10,20 +11,31 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner:false,
+      debugShowCheckedModeBanner: false,
       title: "Ini Project Flutter Pertamaku",
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.amber,
           title: Text("Belajar Flutter"),
-          ),
-          body: Center(
-            child: Text(
-            "Hello Dunia.... \nHallo Amalia...",
-            style: TextStyle(
-              color: Colors.pink, fontSize: 24, fontWeight: FontWeight.bold ),
-               ),
-             ),
+        ),
+        body: BelajarContainer(),
+      ),
+    );
+  }
+}
+
+class TextWidget extends StatelessWidget {
+  const TextWidget({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Text(
+        "Hello Dunia.... \nHallo Amalia...",
+        style: TextStyle(
+            color: Colors.pink, fontSize: 24, fontWeight: FontWeight.bold),
       ),
     );
   }
