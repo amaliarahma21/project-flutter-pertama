@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       title: "Ini Project Flutter Pertamaku",
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.amber,
-          title: Text("Belajar Flutter"),
+          backgroundColor: Colors.purpleAccent,
+          title: Center(child: Text("Belajar Flutter")),
         ),
         body: BelajarContainer(),
       ),
