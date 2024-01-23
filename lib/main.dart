@@ -1,4 +1,10 @@
+import 'package:belajar/column_widget.dart';
 import 'package:belajar/container_widget.dart';
+import 'package:belajar/latihan1_widget.dart';
+import 'package:belajar/latihan2_widget.dart';
+import 'package:belajar/latihan3_widget.dart';
+import 'package:belajar/row_column.dart';
+import 'package:belajar/row_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,10 +21,10 @@ class MyApp extends StatelessWidget {
       title: "Ini Project Flutter Pertamaku",
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.purpleAccent,
+          backgroundColor: Colors.blueAccent,
           title: Center(child: Text("Belajar Flutter")),
         ),
-        body: BelajarContainer(),
+        body: GaleriPersib(),
       ),
     );
   }
