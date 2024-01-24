@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blueAccent,
           title: Center(child: Text("Belajar Flutter")),
         ),
-        body: GaleriPersib(),
+        body: LatihanListBanner(),
       ),
     );
   }
