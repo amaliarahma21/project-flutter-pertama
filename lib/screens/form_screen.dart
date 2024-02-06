@@ -25,7 +25,9 @@ class _BelajarFormState extends State<BelajarForm> {
     "Protestand",
     "Katholik",
     "Buddha",
-    "Atheis"
+    "Atheis",
+    "Hindu",
+    "Konghuchu"
   ];
 
   void iniState() {

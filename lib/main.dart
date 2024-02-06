@@ -13,6 +13,7 @@ import 'package:belajar/listview/list_builder.dart';
 import 'package:belajar/listview/list_separated.dart';
 import 'package:belajar/row_column.dart';
 import 'package:belajar/row_widget.dart';
+import 'package:belajar/screens/booking_galaxy_screen.dart';
 import 'package:belajar/screens/form_screen.dart';
 import 'package:belajar/screens/home_screen.dart';
 import 'package:belajar/screens/list_screen.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => NavigationMenu(),
         'second': (context) => ListGalaxyScreen(),
-        'third': (context) => BelajarForm()
+        'third': (context) => BookingGalaxy()
       },
     );
   }
